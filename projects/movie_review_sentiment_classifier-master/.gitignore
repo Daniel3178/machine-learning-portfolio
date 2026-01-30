@@ -1,0 +1,59 @@
+# Data directories
+data/raw/*
+data/processed/*
+
+# Model artifacts
+models/*
+
+# Virtual environment
+.myenv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+*.ipynb_checkpoints
+notebooks/results/**/*
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+src/api/logs/*
+
+# Local files
+.personal_notes.md
+.env
+.env.local
+
+# Model training artifacts
+runs/
+results/
+checkpoint-*/
+outputs/
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.tmp
