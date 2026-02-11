@@ -1,2 +1,7 @@
-ipykernell
+ipykernel
 numpy
+matplotlib
+scikit-learn
+tensorflow
+seaborn
+pandas
